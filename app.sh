@@ -1,1 +1,2 @@
-HI DEvops family
+#!/bin/bash
+echo "HI DEvops family"

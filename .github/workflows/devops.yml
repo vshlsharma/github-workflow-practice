@@ -1,0 +1,21 @@
+ame: DevOps CI Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Give Permission
+        run: chmod +x app.sh
+
+      - name: Run Script
+        run: ./app.sh
+

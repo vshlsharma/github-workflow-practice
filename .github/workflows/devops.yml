@@ -1,4 +1,4 @@
-ame: DevOps CI Pipeline
+name: DevOps CI Pipeline
 
 on:
   push:
